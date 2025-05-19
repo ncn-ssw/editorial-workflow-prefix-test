@@ -6,7 +6,7 @@ import { icon } from "mermaid/dist/rendering-util/rendering-elements/shapes/icon
 const Global: Collection = {
   label: "Global",
   name: "global",
-  path: "content/global",
+  path: "content/global/",
   format: "json",
   ui: {
     global: true,
