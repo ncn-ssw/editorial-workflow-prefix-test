@@ -4,7 +4,7 @@ const Author: Collection = {
   label: "Authors",
   name: "author",
   path: "content/authors",
-  format: "md",
+  format: "json",
   fields: [
     {
       type: "string",
