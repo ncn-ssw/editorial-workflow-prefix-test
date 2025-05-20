@@ -13,7 +13,7 @@ const Page: Collection = {
   name: 'page',
   path: 'content/pages/',
   format: 'mdx',
-  ui: {
+  /* ui: {
     router: ({ document }) => {
       const filepath = document._sys.breadcrumbs.join('/');
       if (filepath === 'home') {
@@ -21,7 +21,7 @@ const Page: Collection = {
       }
       return `/${filepath}`;
     },
-  },
+  }, */
   fields: [
     {
       type: 'object',
