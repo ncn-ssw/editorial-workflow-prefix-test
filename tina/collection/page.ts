@@ -14,13 +14,13 @@ const Page: Collection = {
   path: 'content/pages/',
   format: 'mdx',
   ui: {
-    router: ({ document }) => {
+    /* router: ({ document }) => {
       const filepath = document._sys.breadcrumbs.join('/');
       if (filepath === 'home') {
         return '/';
       }
       return `/${filepath}`;
-    },
+    }, */
   },
   fields: [
     {
