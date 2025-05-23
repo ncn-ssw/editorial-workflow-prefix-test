@@ -9,7 +9,7 @@ import { statsBlockSchema } from '@/components/blocks/stats';
 import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 
 const Page: Collection = {
-  label: 'Pages',
+  label: 'Pages - Ending slash, with preview/router',
   name: 'page2',
   path: 'content/pages2/',
   format: 'mdx',

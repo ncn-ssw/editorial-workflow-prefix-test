@@ -9,11 +9,11 @@ import { statsBlockSchema } from '@/components/blocks/stats';
 import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 
 const Page: Collection = {
-  label: 'Pages - Slashes both ends, no preview',
-  name: 'page5',
-  path: '/content/pages5/',
+  label: 'Pages - Slashes both ends, preview',
+  name: 'page6',
+  path: '/content/pages6/',
   format: 'mdx',
-  /* ui: {
+  ui: {
     router: ({ document }) => {
       const filepath = document._sys.breadcrumbs.join('/');
       if (filepath === 'home') {
@@ -21,7 +21,7 @@ const Page: Collection = {
       }
       return `/${filepath}`;
     },
-  }, */
+  },
   fields: [
     {
       type: 'object',
