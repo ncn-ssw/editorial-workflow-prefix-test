@@ -9,11 +9,11 @@ import { statsBlockSchema } from '@/components/blocks/stats';
 import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 
 const Page: Collection = {
-  label: 'Pages - Ending slash, no preview/router',
+  label: 'Pages - No ending slash, with preview/router',
   name: 'page',
-  path: 'content/pages/',
+  path: 'content/pages',
   format: 'mdx',
-  /* ui: {
+  ui: {
     router: ({ document }) => {
       const filepath = document._sys.breadcrumbs.join('/');
       if (filepath === 'home') {
@@ -21,7 +21,7 @@ const Page: Collection = {
       }
       return `/${filepath}`;
     },
-  }, */
+  },
   fields: [
     {
       type: 'object',

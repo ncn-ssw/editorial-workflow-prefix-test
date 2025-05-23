@@ -11,9 +11,9 @@ import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 const Page: Collection = {
   label: 'Pages - no ending slash, with preview/router',
   name: 'page4',
-  path: 'content/pages4',
+  path: 'content/pages4/',
   format: 'mdx',
-  ui: {
+  /* ui: {
     router: ({ document }) => {
       const filepath = document._sys.breadcrumbs.join('/');
       if (filepath === 'home') {
@@ -21,7 +21,7 @@ const Page: Collection = {
       }
       return `/${filepath}`;
     },
-  },
+  }, */
   fields: [
     {
       type: 'object',
