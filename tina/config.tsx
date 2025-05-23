@@ -4,7 +4,11 @@ import nextConfig from '../next.config'
 import Post from "./collection/post";
 import Global from "./collection/global";
 import Author from "./collection/author";
-import Page from "./collection/page";
+import Page1 from "./collection/page1";
+import Page2 from "./collection/page2";
+import Page3 from "./collection/page3";
+import Page4 from "./collection/page4";
+import Page5 from "./collection/page5";
 import Tag from "./collection/tag";
 
 const config = defineConfig({
@@ -32,7 +36,7 @@ const config = defineConfig({
     basePath: nextConfig.basePath?.replace(/^\//, '') || '', // The base path of the app (could be /blog)
   },
   schema: {
-    collections: [Page, Post, Author, Tag, Global],
+    collections: [Page1, Page2, Page3, Page4, Page5, Post, Author, Tag, Global],
   },
 });
 

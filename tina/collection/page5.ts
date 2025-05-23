@@ -10,8 +10,8 @@ import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 
 const Page: Collection = {
   label: 'Pages',
-  name: 'page',
-  path: 'content/pages/',
+  name: 'page5',
+  path: 'content/pages5/',
   format: 'mdx',
   /* ui: {
     router: ({ document }) => {
