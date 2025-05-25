@@ -9,9 +9,9 @@ import { statsBlockSchema } from '@/components/blocks/stats';
 import { ctaBlockSchema } from '@/components/blocks/call-to-action';
 
 const Page: Collection = {
-  label: 'Pages - No ending slash, with preview/router',
+  label: 'Pages - Slash both ends, with preview/router',
   name: 'page',
-  path: 'content/pages',
+  path: '/content/pages/',
   format: 'mdx',
   ui: {
     router: ({ document }) => {
